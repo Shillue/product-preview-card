@@ -134,7 +134,7 @@ body{
     background-color: hsl(160, 33%, 23%);
 }
 
-@media (max-width:1700px) {
+@media (max-width:1000px) {
     .conteiner{
         flex-direction: column;
         width:375px;
