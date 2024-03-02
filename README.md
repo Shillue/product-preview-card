@@ -29,7 +29,7 @@ Users must be able to:
 
 ### Print Screen
 
-![]( )
+![product-preview-card](https://github.com/Shillue/product-preview-card/assets/86475008/bb134005-91ab-4549-a7de-8f868c331a3f)
 
 
 ###Links
