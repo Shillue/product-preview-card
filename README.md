@@ -61,4 +61,4 @@ I will continue to focus on Flexbox to improve and improve it more and more.
 ## Author
 
 - Frontend Mentor - [@Shilluê](https://www.frontendmentor.io/profile/Shillue).
-- Linkedin - (https://www.linkedin.com/in/shilu%C3%AA/).
+- Linkedin - [@Shilluê](https://www.linkedin.com/in/shilu%C3%AA/).
