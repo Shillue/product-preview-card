@@ -32,18 +32,26 @@ body{
 .product{
     display: flex;
     width: 50%;
-    height: 100%;
-  
+    height: 100%; 
 }
-.imageProduct{
+.imageProductDesktop{
     display: block;
-    background-image: url(/images/image-product-desktop.jpg);
     width: 100%;
     height: 100%;
     background-repeat: no-repeat; 
     background-size: 720px 1100px;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;  
+}
+.imageProductMobile{
+    display: none;
+    width:100%;
+    height: 100%;
+    background-repeat: no-repeat; 
+    background-size: 375px 288px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;  
+    border-bottom-left-radius: 0px;
 }
 .dadosProduct{
     display:flex;
@@ -126,7 +134,7 @@ body{
     background-color: hsl(160, 33%, 23%);
 }
 
-@media (max-width:2000px) {
+@media (max-width:1700px) {
     .conteiner{
         flex-direction: column;
         width:375px;
@@ -137,19 +145,11 @@ body{
         width: 100%;
         height: 40%;
     }
-    .imageProduct{
+    .imageProductDesktop{
         display: none;
     }
     .imageProductMobile{
         display: block;
-        background-image: url(/images/image-product-mobile.jpg);
-        width: 100%;
-        height: 100%;
-        background-repeat: no-repeat; 
-        background-size: 375px 288px;
-        border-top-left-radius: 50px;
-        border-top-right-radius: 50px;  
-        border-bottom-left-radius: 0px;
     }
     .dadosProduct{
         width:100%;
