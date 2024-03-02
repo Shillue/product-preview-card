@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --fontPrincipal:  "Montserrat", sans-serif;
+    --fonteSecudaria:"Fraunces", serif;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: hsl(30, 38%, 92%);
+    position:absolute;
+}
+
+.conteiner{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: hsl(0, 0%, 100%);
+    width:1440px;
+    height: 1100px;
+    border-radius: 50px;
+}
+.product{
+    display: flex;
+    width: 50%;
+    height: 100%;
+  
+}
+.imageProduct{
+    display: block;
+    background-image: url(/images/image-product-desktop.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat; 
+    background-size: 720px 1100px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;  
+}
+.dadosProduct{
+    display:flex;
+    width:50%;
+    height:100%;
+    overflow:hidden;
+}
+.textDadosProduct{
+    margin:80px;
+    display: flex;
+    flex-direction: column;
+}
+.textDadosProduct h1{
+    font-family: var(--fontPrincipal);
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 10px;
+    margin-bottom: 40px;
+    color: hsl(228, 12%, 48%);
+}
+.textDadosProduct h2{
+    font-family: var(--fonteSecudaria);
+    font-weight: 700;
+    font-size: 85px;
+    margin-bottom: 50px;
+    color: hsl(212, 21%, 14%);
+    line-height: 75px;
+}
+.paragratextDadosProduct{
+    font-family: var(--fontPrincipal);
+    font-size: 30px;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    margin-bottom: 50px;
+    line-height: 50px;
+}
+.valorDadosProduct{
+    display: flex;
+    justify-content: left;
+    align-items: center; 
+    margin-bottom: 10px; 
+}
+.valorDadosProduct1{
+    font-family: var(--fonteSecudaria);
+    font-size: 70px;
+    font-weight: 700;
+    color: hsl(158, 36%, 37%);
+    margin-bottom:50px;
+}
+.valorDadosProduct2{
+    font-family: var(--fontPrincipal);
+    font-weight: 500;
+    font-size: 30px;
+    margin-left: 45px;
+    margin-bottom: 55px;
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+}
+.addCart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0px;
+    background-color: hsl(158, 36%, 37%);
+    font-family: var(--fontPrincipal);
+    font-size: 40px;
+    font-weight:500;
+    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 25px;
+}
+.inconeAddCart{
+    color: hsl(0, 0%, 100%);
+    width: 35px;
+    margin-right: 20px;
+}
+.addCart:hover{
+    cursor: pointer;
+    background-color: hsl(160, 33%, 23%);
+}
+
+@media (max-width:2000px) {
+    .conteiner{
+        flex-direction: column;
+        width:375px;
+        height: 720px;
+    }
+    .product{
+        display: flex;
+        width: 100%;
+        height: 40%;
+    }
+    .imageProduct{
+        display: none;
+    }
+    .imageProductMobile{
+        display: block;
+        background-image: url(/images/image-product-mobile.jpg);
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat; 
+        background-size: 375px 288px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;  
+        border-bottom-left-radius: 0px;
+    }
+    .dadosProduct{
+        width:100%;
+        height:60%;
+    }
+    .textDadosProduct{
+        margin:30px;
+        width: 320px;
+    }
+    .textDadosProduct h1{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .textDadosProduct h2{
+        font-size: 35px;
+        margin-bottom: 15px;
+        line-height: 40px;
+    }
+    .paragratextDadosProduct{
+        font-size: 18px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+    .valorDadosProduct{
+        margin-bottom: 10px; 
+    }
+    .valorDadosProduct1{
+        font-size: 30px;
+        margin-bottom:10px;
+    }
+    .valorDadosProduct2{
+        font-size: 15px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+    .addCart{
+        padding: 20px 0px;
+        font-size: 20px;
+    }
+    .inconeAddCart{
+        width: 25px;
+        margin-right: 10px;
+    }
+}
