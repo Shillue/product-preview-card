@@ -25,8 +25,8 @@ body{
     justify-content: center;
     align-items:center;
     background-color: hsl(0, 0%, 100%);
-    width:1440px;
-    height: 1100px;
+    width:1000px;
+    height: 700px;
     border-radius: 50px;
 }
 .product{
@@ -60,34 +60,34 @@ body{
     overflow:hidden;
 }
 .textDadosProduct{
-    margin:80px;
+    margin:20px 40px 20px 40px;
     display: flex;
     flex-direction: column;
 }
 .textDadosProduct h1{
     font-family: var(--fontPrincipal);
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 500;
     letter-spacing: 10px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     color: hsl(228, 12%, 48%);
 }
 .textDadosProduct h2{
     font-family: var(--fonteSecudaria);
     font-weight: 700;
-    font-size: 85px;
-    margin-bottom: 50px;
+    font-size: 50px;
+    margin-bottom: 30px;
     color: hsl(212, 21%, 14%);
-    line-height: 75px;
+    line-height: 55px;
 }
 .paragratextDadosProduct{
     font-family: var(--fontPrincipal);
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 500;
     color: hsl(228, 12%, 48%);
-    margin-bottom: 50px;
-    line-height: 50px;
+    margin-bottom: 30px;
+    line-height: 30px;
 }
 .valorDadosProduct{
     display: flex;
@@ -97,17 +97,17 @@ body{
 }
 .valorDadosProduct1{
     font-family: var(--fonteSecudaria);
-    font-size: 70px;
+    font-size: 45px;
     font-weight: 700;
     color: hsl(158, 36%, 37%);
-    margin-bottom:50px;
+    margin-bottom:20px;
 }
 .valorDadosProduct2{
     font-family: var(--fontPrincipal);
     font-weight: 500;
-    font-size: 30px;
-    margin-left: 45px;
-    margin-bottom: 55px;
+    font-size: 20px;
+    padding: 10px;
+    margin:20px 35px 40px;
     color: hsl(228, 12%, 48%);
     text-decoration: line-through;
 }
@@ -115,29 +115,30 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 40px 0px;
+    padding: 35px 0px;
     background-color: hsl(158, 36%, 37%);
     font-family: var(--fontPrincipal);
-    font-size: 40px;
-    font-weight:500;
+    font-size: 25px;
+    font-weight:600;
     color: hsl(0, 0%, 100%);
     border: none;
     border-radius: 25px;
+    margin-bottom: 20px;
 }
 .inconeAddCart{
     color: hsl(0, 0%, 100%);
-    width: 35px;
+    width: 30px;
     margin-right: 20px;
+    cursor: pointer;
 }
 .addCart:hover{
-    cursor: pointer;
     background-color: hsl(160, 33%, 23%);
 }
 
 @media (max-width:1000px) {
     .conteiner{
         flex-direction: column;
-        width:375px;
+        width:370px;
         height: 720px;
     }
     .product{
@@ -156,38 +157,40 @@ body{
         height:60%;
     }
     .textDadosProduct{
-        margin:30px;
+        margin:20px;
         width: 320px;
     }
     .textDadosProduct h1{
-        font-size: 20px;
+        font-size: 15px;
         margin-bottom: 10px;
     }
     .textDadosProduct h2{
         font-size: 35px;
-        margin-bottom: 15px;
+        margin-bottom: 10px;
         line-height: 40px;
     }
     .paragratextDadosProduct{
         font-size: 18px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         line-height: 25px;
     }
     .valorDadosProduct{
-        margin-bottom: 10px; 
+        font-size: 35px;
+        margin-bottom: 5px; 
     }
     .valorDadosProduct1{
         font-size: 30px;
-        margin-bottom:10px;
+        margin-bottom:0px;
     }
     .valorDadosProduct2{
         font-size: 15px;
         margin-left: 20px;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
     .addCart{
         padding: 20px 0px;
         font-size: 20px;
+        margin: 0px;
     }
     .inconeAddCart{
         width: 25px;
