@@ -16,7 +16,6 @@ This is a solution to the [product preview card component challenge in Frontend 
       - [Useful resources](#useful-resources)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on the sections you maintain.**
 
 ## Overview
 
